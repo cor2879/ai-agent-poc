@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiAgent.Orchestrator", "AiAgent.Orchestrator\AiAgent.Orchestrator.csproj", "{B8B7EA20-9283-8336-0BA8-B93B2DFD6A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiAgent.Orchestrator.Tests", "AiAgent.Orchestrator.Tests\AiAgent.Orchestrator.Tests.csproj", "{DF0E7610-C994-4318-9273-BD311F041FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B7EA20-9283-8336-0BA8-B93B2DFD6A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B7EA20-9283-8336-0BA8-B93B2DFD6A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B7EA20-9283-8336-0BA8-B93B2DFD6A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B7EA20-9283-8336-0BA8-B93B2DFD6A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0E7610-C994-4318-9273-BD311F041FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0E7610-C994-4318-9273-BD311F041FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0E7610-C994-4318-9273-BD311F041FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0E7610-C994-4318-9273-BD311F041FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73AD0B32-C150-4699-8A7F-A0843D82B63B}
+	EndGlobalSection
+EndGlobal
