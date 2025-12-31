@@ -263,4 +263,5 @@ This project focuses on:
 
 ## 📄 License
 
-MIT
+MIT License  
+Copyright © 2025 Old Skool Games and Software
