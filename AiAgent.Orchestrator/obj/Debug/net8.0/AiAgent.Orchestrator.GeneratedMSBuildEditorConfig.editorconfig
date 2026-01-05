@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AiAgent.Orchestrator
-build_property.ProjectDir = /home/thelionkd369/Storage/Repos/AI Agent PoC/AiAgent.Orchestrator/
+build_property.ProjectDir = /mnt/storage/Repos/AI Agent PoC/AiAgent.Orchestrator/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

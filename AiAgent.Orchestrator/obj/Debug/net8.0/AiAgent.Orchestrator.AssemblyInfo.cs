@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AiAgent.Orchestrator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74efb7f468a5a3b95bd648018675aed30489c35f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab6860da16d5d728735ff6b821247734f81fe33")]
 [assembly: System.Reflection.AssemblyProductAttribute("AiAgent.Orchestrator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AiAgent.Orchestrator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
