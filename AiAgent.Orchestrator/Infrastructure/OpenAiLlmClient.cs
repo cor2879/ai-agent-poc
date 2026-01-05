@@ -9,11 +9,11 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Infrastructure
             _client = client;
         }
 
-        public Task<string> GetCompletionAsync(
+        public async Task<string> GetCompletionAsync(
             string systemPrompt,
             string userPrompt)
         {
-            return _client.CreateChatCompletionAsync(
+            return await _client.CreateChatCompletionAsync(
                 systemPrompt,
                 userPrompt);
         }

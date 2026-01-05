@@ -16,10 +16,12 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Tools
         public string Description =>
             "Classifies the user's intent into a small set of known categories.";
 
-        public async Task<string> ExecuteAsync(string input)
+        public async Task<string> ExecuteAsync(string? input)
         {
             if (string.IsNullOrWhiteSpace(input))
+            {
                 throw new ArgumentException("Input text cannot be empty.");
+            }
 
             var prompt = $"""
             Classify the intent of the following user request into ONE of these values:

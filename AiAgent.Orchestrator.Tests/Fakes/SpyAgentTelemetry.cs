@@ -16,7 +16,7 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Tests.Fakes
             string reasoning)
             => Events.Add("DecisionCreated");
 
-        public void ToolExecuted(string toolName, string input)
+        public void ToolExecuted(string toolName, string? input)
             => Events.Add("ToolExecuted");
 
         public void ToolExecutionFailed(string toolName, string error)

@@ -10,7 +10,7 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Telemetry
             bool requiresHumanReview,
             string reasoning);
 
-        void ToolExecuted(string toolName, string input);
+        void ToolExecuted(string toolName, string? input);
 
         void ToolExecutionFailed(string toolName, string error);
 

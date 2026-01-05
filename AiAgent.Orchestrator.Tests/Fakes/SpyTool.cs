@@ -10,7 +10,7 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Tests.Fakes
 
         public string Description => "Test spy tool";
 
-        public async Task<string> ExecuteAsync(string input)
+        public async Task<string> ExecuteAsync(string? input)
         {
             WasExecuted = true;
             return await Task.FromResult("Executed");

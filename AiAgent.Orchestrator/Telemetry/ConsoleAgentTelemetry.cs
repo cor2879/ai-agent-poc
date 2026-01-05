@@ -32,7 +32,7 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Telemetry
                 reasoning
             });
 
-        public void ToolExecuted(string toolName, string input)
+        public void ToolExecuted(string toolName, string? input)
             => Write("ToolExecuted", new { toolName, input });
 
         public void ToolExecutionFailed(string toolName, string error)

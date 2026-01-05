@@ -15,6 +15,6 @@ namespace OldSkoolGamesAndSoftware.AiAgent.Orchestrator.Tools
         /// <summary>
         /// Executes the tool deterministically using validated input.
         /// </summary>
-        Task<string> ExecuteAsync(string input);
+        Task<string> ExecuteAsync(string? input);
     }
 }
