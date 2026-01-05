@@ -1,0 +1,59 @@
+# =========================
+# Build output
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# .NET artifacts
+# =========================
+*.dll
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+# =========================
+# Test & coverage artifacts
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+*.opencover.xml
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet
+# =========================
+packages/
+
+# =========================
+# Git
+# =========================
+.gitmodules
